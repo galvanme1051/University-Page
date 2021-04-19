@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+ul .group {
+  list-style-type: square;
+
+}
+
+ul .group,
+ol {
+  margin: 1.6rem 0;
+  margin-top: 1.6rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+p {
+  font-family: lovatolight, serif;
+  font-size: 10px;
+}
+h2 {
+    font-size: 3.2rem;
+}
+h1, h2 {
+    font-family: josefin_slabbold, sans-serif;
+    letter-spacing: 2px;
+}
+p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: square;
+}
+ul {
+    list-style-type: disc;
+}
+html {
+    font-family: lovatolight, serif;
+    font-size: 10px;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+nav ul {
+    padding-left: 0;
+    margin-top: 0.8rem;
+}
